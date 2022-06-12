@@ -10,7 +10,7 @@ const port = 5000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://gihandissanayaka:gihandissanayaka1234@cluster0.ino3a.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://gihandissanayaka:gihandissanayaka1234@cluster0.abvae.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
 
 const connection = mongoose.connection;
 
